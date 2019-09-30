@@ -1,0 +1,58 @@
+body {
+  background-image: url("image/signup1.jpeg");
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0% {
+    background-image: url("image/signup1.jpeg");
+  }
+  25% {
+    background-image: url("image/signup2.jpg");
+  }
+  50% {
+    background-image: url("image/signup3.png");
+  }
+  75% {
+    background-image: url("image/signup4.jpg");
+  }
+  100% {
+    background-image: url("image/signup1.jpeg");
+  }
+}
+
+/* Standard syntax */
+@keyframes example {
+  0% {
+    background-image: url("image/signup1.jpeg");
+  }
+  25% {
+    background-image: url("image/signup2.jpg");
+  }
+  50% {
+    background-image: url("image/signup3.png");
+  }
+  75% {
+    background-image: url("image/signup4.jpg");
+  }
+  100% {
+    background-image: url("image/signup1.jpeg");
+  }
+}
+
+#main {
+  width: 350px;
+
+  margin: 0 auto;
+}
